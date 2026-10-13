@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 計測データ・校正値（デバイス固有・大容量のためリポジトリには含めない）
+*.csv
+data/
+bno055_calib.json
+
+# エディタ・OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# データシート等の配布物（再配布しない）
+*.pdf
